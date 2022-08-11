@@ -8,5 +8,5 @@ int main(){
 #endif
 	int n;
 	cin>>n;
-	cout<<n;
+	cout<<n+1000;
 }
