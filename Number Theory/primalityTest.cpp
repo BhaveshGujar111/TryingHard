@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+	FIND IF THE GIVEN NUMBER IS PRIME OR NOT
+*/
+
 //Time-Complexity - O(N)
 bool isPrime(int n){
 	for(int i=2;i<n;i++){

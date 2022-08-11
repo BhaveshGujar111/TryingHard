@@ -1,1 +1,5 @@
-20
+Prime
+Prime
+Prime
+Prime
+Non-Prime
