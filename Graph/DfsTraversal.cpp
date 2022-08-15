@@ -6,8 +6,7 @@ using namespace std;
 				V - Number of Vertices
 				E - Number of Edges
 */
-void dfs(long long node, vector<long long> &visited, vector<long long> adj[],
-												vector<long long> &storeDfs){
+void dfs(long long node, vector<long long> &visited, vector<long long> adj[],vector<long long> &storeDfs){
 	storeDfs.push_back(node);
 	visited[node] = 1;
 	for(auto it: adj[node]){
