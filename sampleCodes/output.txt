@@ -1,5 +1,5 @@
-Prime
-Prime
-Prime
-Prime
-Non-Prime
+3
+5
+8
+13
+89
