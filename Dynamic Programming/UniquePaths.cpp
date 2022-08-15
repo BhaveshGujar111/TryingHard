@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 /*
-	Problem: Find distinct ways to reach [N-M] from [0-0] in a grid
+	Problem: Find unique ways to reach [N-M] from [0-0] in a grid
 */
 vector<vector<int>> dp;
 long long n, m;
