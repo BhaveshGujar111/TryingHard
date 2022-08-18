@@ -12,12 +12,18 @@ using namespace std;
 				first operand, the second operand decides the number of places to shift. 
 			5. 	The >> (right shift) in C or C++ takes two numbers, right shifts the bits of the 
 				first operand, the second operand decides the number of places to shift. 
+			4. 	The << (left shift) in C or C++ takes two numbers, left shifts the bits of the first operand, the second operand 
+				decides the number of places to shift. 
+			5. 	The >> (right shift) in C or C++ takes two numbers, right shifts the bits of the first operand, the second operand 
+				decides the number of places to shift. 
 			6.	The ~ (bitwise NOT) in C or C++ takes one number and inverts all bits of it. 
 
 			Interesting Facts:
 			1.	The left shift and right shift operators should not be used for negative numbers.
 			2.	Interestingly!! The bitwise OR of two numbers is just the sum of those two numbers 
 				if there is no carry involved, otherwise you just add their bitwise AND.
+			2.	Interestingly!! The bitwise OR of two numbers is just the sum of those two numbers if there is no carry involved, 
+				otherwise you just add their bitwise AND.
 			3. 	The bitwise XOR operator is the most useful operator from a technical interview perspective.
 
 			Links:
@@ -94,7 +100,6 @@ int main(){
 		getLowestSetBit(n);
 		divide(n);
 		multiply(n);
-
 	}
 	return 0;
 }
