@@ -8,16 +8,28 @@ using namespace std;
 			1. 	The result of AND is 1 only if both bits are 1.  
 			2.  The result of OR is 1 if any of the two bits is 1. 
 			3.  The result of XOR is 1 if the two bits are different. 
+<<<<<<< HEAD
 			4. 	The << (left shift) in C or C++ takes two numbers, left shifts the bits of the 
 				first operand, the second operand decides the number of places to shift. 
 			5. 	The >> (right shift) in C or C++ takes two numbers, right shifts the bits of the 
 				first operand, the second operand decides the number of places to shift. 
+=======
+			4. 	The << (left shift) in C or C++ takes two numbers, left shifts the bits of the first operand, the second operand 
+				decides the number of places to shift. 
+			5. 	The >> (right shift) in C or C++ takes two numbers, right shifts the bits of the first operand, the second operand 
+				decides the number of places to shift. 
+>>>>>>> 0c4fd90a0b326dc6fb112661f41928362bdbba98
 			6.	The ~ (bitwise NOT) in C or C++ takes one number and inverts all bits of it. 
 
 			Interesting Facts:
 			1.	The left shift and right shift operators should not be used for negative numbers.
+<<<<<<< HEAD
 			2.	Interestingly!! The bitwise OR of two numbers is just the sum of those two numbers 
 				if there is no carry involved, otherwise you just add their bitwise AND.
+=======
+			2.	Interestingly!! The bitwise OR of two numbers is just the sum of those two numbers if there is no carry involved, 
+				otherwise you just add their bitwise AND.
+>>>>>>> 0c4fd90a0b326dc6fb112661f41928362bdbba98
 			3. 	The bitwise XOR operator is the most useful operator from a technical interview perspective.
 
 			Links:
